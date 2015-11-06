@@ -59,7 +59,7 @@ class HangpersonGame
     str
   end
   
-  def self.check_win_or_lose
+  def check_win_or_lose
     if @wrong_guesses.size >= 7
       :lose
     elsif word_with_guesses == @word
